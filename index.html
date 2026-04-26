@@ -53,7 +53,6 @@ footer{text-align:center;padding:30px;background:#00bfa6;color:white}
 </div>
 </div>
 
-<!-- HÀM TẠO VIDEO -->
 <script>
 function videoCard(id,title,topic,level){
 return `
@@ -126,32 +125,61 @@ return `
 </div>
 
 <script>
+// THƠ TRUYỆN
 document.getElementById("tho").innerHTML=
-videoCard("z13QgT3YMSM","Cây táo","Cây và hoa","Khó")+
-videoCard("JjxHA1bwaac","Hoa kết trái","Cây và hoa","Dễ")+
-videoCard("6hr1xaMlRjc","Quả thị","Cây và hoa","TB")+
-videoCard("aQ3pcr39IHU","Cháu chào ông","Gia đình","Dễ")+
-videoCard("gC-z-z3rzt4","Sóc nâu kể chuyện","Bé và bạn","Khó");
+videoCard("P29LczfZQp4","Thơ đàn gà con","Con vật","Dễ")+
+videoCard("fu32XsS4elU","Thỏ con không vâng lời","Con vật","Dễ")+
+videoCard("KwG4drx9vc0","Xe chữa cháy","Giao thông","Khó")+
+videoCard("QxTUt8qFisc","Dê đen và dê trắng","Con vật","Khó")+
+videoCard("9h4bhcEEFHM","Chiếc áo mùa xuân","Cây và hoa","TB")+
+videoCard("JjxHA1bwaac","Hoa kết trái","Cây và hoa","TB")+
+videoCard("aQ3pcr39IHU","Cháu chào ông ạ","Gia đình","Dễ")+
+videoCard("eq4Z6VWZpP0","Bài thơ Tàu thuỷ","Giao thông","TB")+
+videoCard("z5fwPqe8mIs","Con cá vàng","Con vật","Dễ")+
+videoCard("qv4_7QiWDsg","Truyện cây táo","Cây và hoa","Dễ")+
+videoCard("6hr1xaMlRjc","Truyện quả thị","Cây và hoa","TB")+
+videoCard("gC-z-z3rzt4","Sóc nâu kể chuyện","Ngày Tết","Khó")+
+videoCard("z13QgT3YMSM","Cây táo rối bóng","Cây và hoa","Khó")+
+videoCard("3dmEnwtbpAM","Mùa xuân đã về","Ngày Tết","Dễ")+
+videoCard("bj6-_4FM5xk","Xe lu và xe ca","Giao thông","TB");
 
+// CHƠI MÀ HỌC
 document.getElementById("choi").innerHTML=
-videoCard("LUPsqgFvnqo","Màu sắc","Bé và bạn","Dễ")+
-videoCard("g-2vmNxl5wQ","Hình dạng","Đồ chơi","TB")+
-videoCard("Oku9tPqSDjA","Máy bay","Giao thông","TB")+
-videoCard("qv4_7QiWDsg","Con vật","Động vật","Dễ")+
-videoCard("k5mIJ8TY06w","Khám phá","Động vật","TB")+
-videoCard("EqTMVMslE5Y","Mùa hè","Mùa hè","Dễ");
+videoCard("97KrhLBNhiI","Nhận biết con vật nuôi","Con vật","Dễ")+
+videoCard("LUPsqgFvnqo","Nhận biết đỏ - xanh","Ngày Tết","TB")+
+videoCard("An95sKPY-Zs","PTGT AI","Giao thông","Khó")+
+videoCard("g-2vmNxl5wQ","Hình chữ nhật","Ngày Tết","TB")+
+videoCard("QUcD0f0I8h0","3 đèn giao thông","Giao thông","Khó")+
+videoCard("EqTMVMslE5Y","Hát Cô giáo em","Bé lên mẫu giáo","Dễ")+
+videoCard("BncPv53iJj8","Quan sát rau cải","Cây và hoa","TB")+
+videoCard("nG6I0PWo7-w","Gieo hạt nảy mầm","Cây và hoa","TB")+
+videoCard("gvn7iyTJHCI","Bộ phận cơ thể","Bé và bạn","Khó")+
+videoCard("lvxziuP9W-s","Máy bay","Giao thông","Khó")+
+videoCard("X-rzbd0WRfc","Đổi màu nước","Mùa hè","Khó")+
+videoCard("prr2Bxcs048","Hát Đố bạn","Con vật","Khó")+
+videoCard("E0fYrZzm2Hk","Con cò bé bé","Gia đình","Dễ");
 
+// KỸ NĂNG
 document.getElementById("kynang").innerHTML=
-videoCard("z5fwPqe8mIs","Giao tiếp","Bé và bạn","TB")+
-videoCard("prr2Bxcs048","Thói quen","Gia đình","Dễ")+
-videoCard("fu32XsS4elU","Hành vi","Đồ chơi","TB")+
-videoCard("dSuUTlMml9k","Thể dục","Bé và bạn","TB")+
-videoCard("yMhECbNn0Ts","Ném bóng","Bé và bạn","Dễ");
+videoCardNoLevel("CwBKUUp-RdY","Quy tắc 5 ngón tay")+
+videoCardNoLevel("I_YpdtY622k","Sâu răng")+
+videoCard("QFTK8YJc5Ns","Nhớ ơn","Bé lên mẫu giáo","TB")+
+videoCard("hZ0Dvj_qV60","Vẽ tia nắng","Mùa hè","Dễ")+
+videoCardNoLevel("dSuUTlMml9k","Thể dục với cành hoa")+
+videoCard("yMhECbNn0Ts","Ném bóng","Bé và bạn","TB")+
+videoCard("qA2HMDbQSVQ","Phòng tránh đuối nước","Mùa hè","TB")+
+videoCard("fnN87XEiPG4","Cầm cốc uống nước","Gia đình","Dễ")+
+videoCard("kakMYtuwkPg","Ăn uống lịch sự","Gia đình","Dễ");
 
+// TUYÊN TRUYỀN
 document.getElementById("ph").innerHTML=
-videoCardNoLevel("E0fYrZzm2Hk","Khám phá thiên nhiên")+
-videoCardNoLevel("umVlxnnQMic","Học tại nhà");
+videoCardNoLevel("OhwHb0u6zeY","Phòng chống dịch mùa hè")+
+videoCardNoLevel("B1MI60uvfZ8","Dinh dưỡng trẻ mầm non")+
+videoCardNoLevel("NrbgxDzIJpk","Sinh nhật Minh Phương")+
+videoCardNoLevel("5dTOjIeGtGA","Làm quen nhạc cụ")+
+videoCardNoLevel("umVlxnnQMic","Sinh nhật Nhật Huy");
 
+// POPUP
 function openVideo(id){
 modal.style.display="block";
 frame.src="https://www.youtube.com/embed/"+id;
